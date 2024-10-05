@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sanjana Sharma </span>
             from <span className="purple"> Kolkata, West Bengal, India.</span>
             <br />
-            I am currently employed as a software developer engineering intern at Crystal Clear Services.
+            I am currently employed as a <span className="purple">React Developer intern</span>  at Leaf Tech.
             <br />
             <br />
             <br />

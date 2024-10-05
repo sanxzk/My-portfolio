@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import SanjanaCartoon from "../../Assets/Sanjana_Cartoon.png"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,22 +20,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’ve fallen in love with programming and along the way, I’ve
+              definitely picked up a few things.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I’m fluent in classics like
               <i>
-                <b className="purple"> C++ and Javascript  </b>
+                <b className="purple"> JavaScript, TypeScript, and C++.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest is building new and &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                 Backend Development.
-                </b>
+                <b className="purple">useful Products &nbsp;</b>
+              </i>
+              using web technologies, with a strong hand in
+              <i>
+                <b className="purple"> Frontend Development, </b>
+              </i>
+              while I continue to explore
+              <i>
+                <b className="purple"> Backend Technologies and Databases.</b>
               </i>
               <br />
               <br />
@@ -43,18 +49,18 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  modern JavaScript libraries and frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple"> React.js, Next.js, and Express.js.</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={SanjanaCartoon} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -112,4 +118,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
